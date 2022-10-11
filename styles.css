@@ -1,0 +1,82 @@
+body {
+    background-color: #1F2937;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 720px;
+    height: 100px;
+    font-family: 'Karla', sans-serif;
+    font-size: 800;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+span {
+    color: #4ADF86;
+}
+
+.tagline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.button button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #10B981;
+    border: none;
+    cursor: pointer;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-top: 51px;
+}
+
+.button button:hover {
+    background: #ECFDF5;
+    color: #1F2937;
+    transition: 250ms;
+}
+
+.line {
+    height: 0;
+    border: 1px solid #2F3E53;
+}
+
+.password-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    gap: 24px;
+}
+
+.password-box div {
+    background-color: #273549;
+    border: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 8px 9px 3px 10px;
+    color: #55F991;
+    text-align: center;
+    line-height: 32px;
+    width: 348px;
+    height: 39px;
+    border-radius: 6px;
+}
